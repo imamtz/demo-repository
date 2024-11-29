@@ -11,6 +11,12 @@ def multiply(x, y):  # New function
     return x * y
 
 def divide(a, b):
+    """Divides two numbers and returns the result.
+
+    Raise ZeroDivisionError if the second number (y) is zero.
+    """
+    if y == 0:
+        raise ZeroDivisionError('Division by zero is not allowed.')
     return a / b
 
 # New feature: Power function
