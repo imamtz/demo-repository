@@ -12,7 +12,8 @@ def multiply(x, y):  # New function
 
 def divide(a, b):
     """Divides two numbers and returns the result.
-
+    """
+    """
     Raise ZeroDivisionError if the second number (y) is zero.
     """
     if y == 0:
